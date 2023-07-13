@@ -1,4 +1,6 @@
+import heapq
 def dijsktra(graph,start):
+   
     distances={node:float('inf') for node in graph}
     distances[start]=0
     heap=[(0,start)]
