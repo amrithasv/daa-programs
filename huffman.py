@@ -45,10 +45,10 @@ def printNodes(node, val=''):
  
  
 # characters for huffman tree
-chars = input("").split(' ') #['a', 'b', 'c', 'd', 'e', 'f']
+chars = input("Enter the characters:").split(' ') #['a', 'b', 'c', 'd', 'e', 'f']
  
 # frequency of characters
-freq =[int(i) for i in input("").split(' ')] #[5, 9, 12, 13, 16, 45]
+freq =[int(i) for i in input("Enter the frequency:").split(' ')] #[5, 9, 12, 13, 16, 45]
  
 # list containing unused nodes
 nodes = []
